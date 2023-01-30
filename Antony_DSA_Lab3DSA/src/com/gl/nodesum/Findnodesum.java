@@ -98,10 +98,10 @@ public class Findnodesum {
 				System.out.println("Tree is not built-Root is empty");
 
 			}
-	
+
 			System.out.println("Do you want to check other values(press Y/y to continue, N/n-quit)? :");
 			choice = sc.next().charAt(0);
-			
+
 		} while ((choice != 'n') && (choice != 'N'));
 		sc.close();
 		System.out.println("----Program successfully completed----");
